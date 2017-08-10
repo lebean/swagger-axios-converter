@@ -6,19 +6,32 @@
 
 **项目文件目录如下：**
 
->swagger-vue
+>swagger-axios-converter
+
 >--lib
+>
 >----codgen.js
+>
 >----parse.js
+>
 >----template
+>
 >------api.hbs
+>
 >------method.hbs
+>
 >------methods.hbs
+>
 >--Gruntfile.js
+>
 >--index.js
+>
 >--package.json
+>
 >--package-lock.json
+>
 >--README.md
+>
 
 - 复制swagger.json到swagger-vue目录下
 
