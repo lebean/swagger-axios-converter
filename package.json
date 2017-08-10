@@ -1,0 +1,44 @@
+{
+  "name": "swagger-axios-converter",
+  "version": "0.0.1",
+  "description": "通过swagger.json生成axios 代码",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lebean/swagger-axios-converter.git"
+  },
+  "keywords": [
+    "swagger",
+    "js",
+    "vue",
+    "axios",
+    "codegen"
+  ],
+  "author": "lebean",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lebean/swagger-axios-converter/issues"
+  },
+  "homepage": "https://github.com/lebean/swagger-axios-converter#readme",
+  "dependencies": {
+    "handlebars": "^4.0.6",
+    "js-beautify": "^1.6.12",
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "eslint": "^3.18.0",
+    "eslint-config-standard": "^7.1.0",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^2.1.1",
+    "grunt": "^1.0.1",
+    "swagger-vue": "^1.0.3"
+  },
+  "swagger": {
+    "definition": "swagger.json",
+    "className": "API",
+    "moduleName": "api-client"
+  },
+  "directories": {
+    "lib": "lib"
+  }
+}
