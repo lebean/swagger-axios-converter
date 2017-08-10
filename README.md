@@ -1,4 +1,4 @@
-# 用swagger.json生成axios api访问包
+# 用swagger.json生成axios api访问代码
 
 ​	之前我让公司的开发团队做了前后端分离，前后端的调用协议通过swagger来设计，swagger可以导出后端可用的java代码，于是就想了，如果也能生成前端使用的axios代码就好（swagger原生支持许多客户端代码生成，但目前还没有axios的）。
 
@@ -33,7 +33,7 @@
 >--README.md
 >
 
-- 复制swagger.json到swagger-vue目录下
+- 复制swagger.json到swagger-axios-converter目录下
 
 - 运行以下命令初始化项目
 
@@ -59,6 +59,6 @@
   grunt vue
   ```
 
-> 到这里，你就可以在swagger-vue目录下发现多了一个vue-api-client.js文件，这个文件就是生成的axios客户端api请求代码哟！对于这个文件怎么使用什么的就不多说了，你了可以去看这里<https://github.com/chenweiqun/swagger-vue>
+> 到这里，你就可以在swagger-axios-converter目录下发现多了一个vue-api-client.js文件，这个文件就是生成的axios客户端api请求代码哟！对于这个文件怎么使用什么的就不多说了，你了可以去看这里<https://github.com/chenweiqun/swagger-vue>
 
 > [有需要的哥们来我的github下载源码吧，可以的话也给点个星星哇！](https://github.com/lebean/swagger-axios-converter)
